@@ -4,7 +4,8 @@
     <title>My buysell</title>
 </head>
 <body>
-    <h1>My buysell</h1><hr>
+    <h1>My buysell</h1>
+    <a href="/">Вернуться назад</a><hr>
     <h4>Подробная информация о товаре</h4>
     <#list images as img>
         <img src="/images/${img.id}" height="60"><br><br>

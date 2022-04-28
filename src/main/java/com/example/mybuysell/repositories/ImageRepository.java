@@ -1,0 +1,7 @@
+package com.example.mybuysell.repositories;
+
+import com.example.mybuysell.models.Image;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ImageRepository extends JpaRepository<Image, Long> {
+}

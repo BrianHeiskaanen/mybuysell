@@ -16,7 +16,7 @@ public class Image {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private String originFileName;
+    private String originalFileName;
     private Long size;
     private String contentType;
     private boolean isPreviewImage;
